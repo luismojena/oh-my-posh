@@ -75,6 +75,14 @@
           "foreground": "#ffffff",
           "background": "#4063D8",
           "template": "  {{ .Full }}"
+        },
+        {
+          "type": "go",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#ffffff",
+          "background": "#7FD5EA",
+          "template": " ﳑ {{ .Full }} "
         }
       ]
     },
@@ -124,7 +132,9 @@
           "background": "p:lavender",
           "foreground": "p:text",
           "style": "powerline",
-          "background_templates": ["{{ if gt .Code 0 }}#e91e63{{ end }}"],
+          "background_templates": [
+            "{{ if gt .Code 0 }}#e91e63{{ end }}"
+          ],
           "powerline_symbol": "\ue0b0",
           "template": "$"
         },
