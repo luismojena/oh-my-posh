@@ -50,7 +50,7 @@
           "powerline_symbol": "",
           "foreground": "#000000",
           "background": "#ebcc34",
-          "template": " ﴱ {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}} "
+          "template": " \udb84\udcfe {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}} "
         },
         {
           "type": "node",
@@ -82,7 +82,7 @@
           "powerline_symbol": "",
           "foreground": "#ffffff",
           "background": "#7FD5EA",
-          "template": " ﳑ {{ .Full }} "
+          "template": " \ue627 {{ .Full }} "
         }
       ]
     },
